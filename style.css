@@ -70,27 +70,29 @@ footer {
     border-radius: 40px;
     background-color: rgb(94,138,209);
     text-align: center;
-    color: white;
+    color: black;
 }
-.pos-box{
-    width: 420px;
+.celecao{
+    width: 900px;
     margin: 20px auto;
     padding: 15px;
-    border: 4px solid white;
+    border: 4px solid rgb(72,155,243) ;
     background-color: rgb(72,155,243);
-    color: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .pos-static{
-    position: static;
-    top:40px;
-    left: 30px;
+    display: flex;
+    
 }
 .pos-relative{
 position: relative;
 top: 20px;
 left: 30px;
 background-color: rgb(255,211,0);
-color: rgb(7,49,98);
+color: rgb(7, 24, 98);
 
 }
 .pai{
@@ -114,4 +116,10 @@ color: rgb(7,49,98);
     color: rgb(7,49,98);
     border:3px solid rgb(7,49,98);
     border-radius: 20px;
+}
+.png{
+position: fixed;
+top: 750px;
+left: 1820px;
+
 }
